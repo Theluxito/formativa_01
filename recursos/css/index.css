@@ -51,3 +51,96 @@ header{
 .header-img h1{
     text-align: center;
 }
+
+main{
+    display: flex;
+    justify-content: center;
+    background-color: #dee9f7;
+    margin-top: 1rem;
+}
+
+
+
+
+
+/* INICIO ASIDE */
+aside{
+    background-color: #ffffff;
+    flex-basis: 20%;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    margin-right: 1rem;
+    border: .1rem solid #6A6F75;
+    padding: 2rem;
+}
+
+aside legend{
+    margin-top: 1rem;
+    margin-bottom: 0;
+    font-size: 2rem;
+}
+
+select{
+    margin-bottom: 1.5rem;
+    background-color: rgb(218, 216, 216);
+    border-radius: 1rem;
+    padding: .5rem;
+}
+input{
+    border-radius: 1rem;
+    background-color: rgb(218, 216, 216);
+    padding: .5rem;
+}
+
+
+
+/* FIN ASIDE */
+
+
+
+/* INICIO CARDS */
+article{
+    background-color: #ffffff;
+    flex-basis: 60%;
+    margin-top: 5rem;
+    margin-left: 1rem;
+    border: .1rem solid #6A6F75;
+    padding: 2rem;
+}
+
+.notebooks-container{
+    margin: 0 2rem;
+}
+.cards-container{
+    display: flex;   
+    flex-wrap: wrap;
+    
+}
+.card{
+    flex: 0 0 33.3%;
+    box-sizing: border-box;
+    padding: 2.4rem;
+}
+.card h3{
+    color: #000000;
+}
+.card a{
+    text-decoration: none;
+}
+.card span{
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+.card p{
+    margin-top: .2rem;
+}
+
+.precio{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ff6347;
+}
+
+
+/* FIN CARDS */
